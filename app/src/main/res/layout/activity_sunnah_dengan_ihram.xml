@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    android:fillViewport="true"
+    tools:context=".haji.ManasikHaji">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/haji"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginEnd="12dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:src="@drawable/home" />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/kabah" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/sholat_sunnah_dan_larangan_ihram"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Tentang shalat sunnah dua raka’at ihram, para ulama berselisih pendapat tentang disyariatkannya shalat tersebut. Jumhur (mayoritas) ulama berpendapat dianjurkannya (baca: sunnah) shalat dua rakaat ihram sebelum memulai talbiyah sebagai tanda memulai rangkaian manasik haji atau umrah. "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Di antara dalil yang dipakai oleh jumhur ulama adalah hadits yang diriwayatkan dari ‘Umar bin Khaththab radhiyallahu ‘anhu, beliau berkata,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="“Aku mendengar Nabi shallallahu ‘alaihi wa sallam ketika berada di lembah Al-‘Aqiq, beliau berkata, “Malaikat yag diutus oleh Rabbku datang kepadaku dan berkata, “Shalatlah di lembah yang penuh berkah ini dan katakanlah, “Aku berniat melaksanakan ‘umrah dalam ibadah haji ini.” (HR. Bukhari no. 1534)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Jumhur ulama mengatakan bahwa berdasarkan hadits ini, dianjurkan untuk shalat sunnah (khusus) dua raka’at sebelum memulai ihram. (Majmu’ Fataawa Ibnu Baaz, 17: 68-69)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Cara Melaksanakan Shalat Ihram"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Disarikan dari Imam Abu Ishak Ibrahim bin Ali bin Yusuf al-Fairuzzabadi al-Syairazi dalam Al- Muhadzdzab fi Fiqh al-Imam al-Syafi’i (Damaskus: Dar al-Qalam, 1992), inilah beberapa kesunnahan yang selayaknya dilakukan oleh seseorang yang sedang ihram:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Pertama, mandi ihram. Kesunnahan mandi ihram ini berlaku bagi sesiapapun yang sedang melaksanakan ihram. Sebagaimana kita tahu, ibadah haji dan umrah tidak mensyaratkan batasan usia dan kesucian, oleh karena itu, bisa dilakukan oleh anak kecil maupun dewasa, lelaki maupun perempuan, bahkan meskipun ia sedang dalam kondisi haid maupun nifas."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Kedua, memakai wewangian sesudah mandi dan sesaat sebelum berniat ihram. Sebagaimana kita tahu, bahwa ketika seseorang telah berniat ihram, maka di antara yang diharamkan baginya ialah memakai wewangian. Oleh karena itu, syariat menganjurkan anda untuk memakai wewangian sebelum niat."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Ketiga, menggunakan pakaian ihram yang berwarna putih, sebagaimana yang telah dilakukan oleh Rasulullah dan para Sahabat."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Keempat, shalat sunnah ihram sebanyak dua rakaaat, dengan niat salat sunnah ihram, dimana di rakaat pertama sunnah membaca surat al-kafirun dan rakaat kedua membaca surat al-ikhlas."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Larangan Ketika Ihram"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Larangan ihram yang seandainya dilakukan oleh orang yang berhaji atau berumroh, maka wajib baginya menunaikan fidyah, puasa, atau memberi makan. Yang dilarang bagi orang yang berihram adalah sebagai berikut:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1.	Mencukur rambut dari seluruh badan (seperti rambut kepala, bulu ketiak, bulu kemaluan, kumis dan jenggot)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2.	Menggunting kuku."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="3.	Menutup kepala dan menutup wajah bagi perempuan kecuali jika lewat laki-laki yang bukan mahrom di hadapannya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="4.	Mengenakan pakaian berjahit yang menampakkan bentuk lekuk tubuh bagi laki-laki seperti baju, celana dan sepatu."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="5.	Menggunakan harum-haruman."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="6.	Memburu hewan darat yang halal dimakan. Yang tidak termasuk dalam larangan adalah: (1) hewan ternak (seperti kambing, sapi, unta, dan ayam), (2) hasil tangkapan di air, (3) hewan yang haram dimakan (seperti hewan buas, hewan yang bertaring dan burung yang bercakar), (4) hewan yang diperintahkan untuk dibunuh (seperti kalajengking, tikus dan anjing), (5) hewan yang mengamuk (Shahih Fiqh Sunnah, 2: 210-211)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="7.	Melakukan khitbah dan akad nikah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="8.	Jima’ (hubungan intim). Jika dilakukan sebelum tahallul awwal (sebelum melempar jumroh Aqobah), maka ibadah hajinya batal. Hanya saja ibadah tersebut wajib disempurnakan dan pelakunya wajib menyembelih seekor unta untuk dibagikan kepada orang miskin di tanah suci. Apabila tidak mampu, maka ia wajib berpuasa selama sepuluh hari, tiga hari pada masa haji dan tujuh hari ketika telah kembali ke negerinya. Jika dilakukan setelah tahallul awwal, maka ibadah hajinya tidak batal. Hanya saja ia wajib keluar ke tanah halal dan berihram kembali lalu melakukan thowaf ifadhoh lagi karena ia telah membatalkan ihramnya dan wajib memperbaharuinya. Dan  ia wajib menyembelih seekor kambing."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="9.	Mencumbu istri di selain kemaluan. Jika keluar mani, maka wajib menyembelih seekor unta. Jika tidak keluar mani, maka wajib menyembelih seekor kambing. Hajinya tidaklah batal dalam dua keadaan tersebut (Taisirul Fiqh, 358-359)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Tiga keadaan seseorang melakukan larangan ihram"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1.	Dalam keadaan lupa, tidak tahu, atau dipaksa, maka tidak ada dosa dan tidak ada fidyah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2.	Jika melakukannya dengan sengaja, namun karena ada uzur dan kebutuhan mendesak, maka ia dikenakan fidyah. Seperti terpaksa ingin mencukur rambut (baik rambut kepala atau ketiaknya), atau ingin mengenakan pakaian berjahit karena mungkin ada penyakit dan faktor pendorong lainnya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="3.	Jika melakukannya dengan sengaja dan tanpa adanya uzur atau tidak ada kebutuhan mendesak, maka ia dikenakan fidyah ditambah dan terkena dosa sehingga wajib bertaubat dengan taubat yang nashuhah (tulus)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Pembagian larangan ihram berdasarkan hukum fidyah yang dikenakan"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1.	Yang tidak ada fidyah, yaitu akad nikah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2.	Fidyah dengan seekor unta, yaitu jima’ (hubungan intim) sebelum tahallul awwal, ditambah ibadah hajinya tidak sah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="3.	Fidyah jaza’ atau yang semisalnya, yaitu ketika berburu hewan darat. Caranya adalah ia menyembelih hewan yang semisal, lalu ia memberi makan kepada orang miskin di tanah haram. Atau bisa pula ia membeli makanan (dengan harga semisal hewan tadi), lalu ia memberi makan setiap orang  miskin dengan satu mud, atau ia berpuasa selama beberapa hari sesuai dengan jumlah mud makanan yang harus ia beli."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="4.	Selain tiga larangan di atas, maka fidyahnya adalah memilih: [1]  berpuasa tiga hari, [2] memberi makan kepada 6 orang miskin, setiap orang miskin diberi 1 mud dari burr (gandum) atau beras, [3] menyembelih seekor kambing. (Al Hajj Al Muyassar, 68-71)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Catatan:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1.	Jika wanita yang berniat tamattu’ mengalami haidh sebelum thowaf dan takut luput dari amalan haji, maka ia berihram dan  meniatkannya menjadi qiron. Wanita haidh dan nifas melakukan seluruh manasik selain thowaf di Ka’bah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2.	Wanita adalah seperti laki-laki dalam hal larangan-larangan saat ihram kecuali dalam beberapa keadaan: (1) mengenakan pakaian berjahit, wanita tetap boleh mengenakannya selama tidak bertabarruj (memamerkan kecantikan dirinya), (2) menutup kepala, (3) tidak menutup wajah kecuali jika terdapat laki-laki non mahram."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="3.	Orang yang berihram maupun tidak berihram diharamkan memotong pepohonan dan rerumputan yang ada di tanah haram. Hal ini serupa dengan memburu hewan, jika dilakukan, maka ada fidyah. Begitu pula dilarang membunuh hewan buruan dan menebang pepohonan di Madinah, namun tidak ada fidyah jika melanggar hal itu."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Kaedah dalam masalah menggunakan harum-haruman ketika ihram"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1.	Boleh menghirup bau tanaman yang memiliki aroma yang harum. Hal ini disepakati oleh para ulama."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2.	Boleh menghirup bau sesuatu yang memiliki aroma harum dan mengkonsumsinya seperti buah-buahan yang dimakan atau digunakan sebagai obat. Hal ini juga disepakati oleh para ulama."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="3.	Jika sesuatu yang tujuan asalnya digunakan untuk parfum (harum-haruman) dan memang digunakan untuk maksud tersebut seperti minyak misik, kapur barus, minyak ambar, dan za’faron, maka ada fidyah jika digunakan ketika berihram."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="4.	Jika sesuatu yang tujuan asalnya digunakan untuk parfum, namun digunakan untuk maksud lain, maka hal ini pun terkena fidyah (An Nawazil fil Hajj, 198)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Hal-hal yang dibolehkan ketika ihram"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1.	Mandi dengan air dan sabun yang tidak berbau harum."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2.	Mencuci pakaian ihram dan mengganti dengan lainnya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="3.	Mengikat izar (pakaian bawah atau sarung ihram)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="4. Berbekam"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="5.	Menutupi badan dengan pakaian berjahit asal tidak dipakai."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="6.	Menyembelih hewan ternak (bukan hewan buruan)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="7.	Bersiwak atau menggosok gigi walau ada bau harum dalam pasta giginya selama bukan maksud digunakan untuk parfum."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="8.	Memakai kacamata."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="9.	Berdagang."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="10.	Menyisir rambut."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Tahallul"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Tahallul artinya keluar dari keadaan ihram. Tahallul ada dua macam: (1) tahallul awwal (tahallul shugro), dan (2) tahalluts tsani (tahallul kubro)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Tahallul awwal ketika telah melakukan: (1) lempar jumroh pada hari Nahr (10 Dzulhijjah), (2) mencukur atau memendekkan rambut. Jika telah tahallul awwal, maka sudah boleh melakukan seluruh larangan ihram (seperti memakai minyak wangi), memakai pakaian berjahit dan yang masih tidak dibolehkan adalah yang berkaitan dengan istri."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Tahalluts tsani ditambah dengan melakukan thowaf ifadhoh (yang termasuk thowaf rukun). Ketika telah tahalluts tsani, maka telah halal segala sesuatu termasuk jima’ (hubungan intim) dengan istri (Fiqhus Sunah, 1: 500)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

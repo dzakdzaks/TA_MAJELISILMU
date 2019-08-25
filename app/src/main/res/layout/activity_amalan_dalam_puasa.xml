@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    android:fillViewport="true"
+    tools:context=".puasa.AmalanDalamPuasa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/puasa"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginEnd="12dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:src="@drawable/home" />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/puasa" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/amalan_dalam_puasa"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Berikut 7 amalan-amalan utama selama bulan Ramadan :"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1. Sholat Tarawih"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Ulama sepakat Salat Tarawih itu disyariatkan. Nabi Muhammad SAW menganjurkan umat muslim menghidupkan malam Ramadan dengan memperbanyak salat ini di sepanjang malam."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dalam menunaikan Salat Tarawih, hendaklah dicontoh tata cara salat Nabi Muhammad SAW, baik mengenai jumlah rakaatnya maupun kualitasnya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Nabi Muhammad menunaikan Salat Tarawih sebanyak 11 rakaat dengan cara-cara yang bervariasi: dengan cara jumlah rakaat 4+4+3. Boleh pula dengan cara 2+2+2+2+2+1."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Bukan cuma itu, salah satu keutamaan salat malam di bulan Ramadan yakni mendapatkan pengampunan dosa-dosa yang telah dikerjakan di masa lalu."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Tidak hanya buat pribadi, seorang kepala keluarga dianjurkan untuk membangunkan keluarganya, baik itu istri maupun anak, untuk bersama menunaikan ibadah mulia ini."
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2. Tadarus Alquran"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Umat Islam dianjurkan benar-benar berinteraksi dengan Alquran untuk meraih keberkahan hidup dan meniti jenjang menuju umat yang terbaik dengan petunjuk Alquran."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Berinteraksi dalam arti hidup dalam naungan Alquran dengan cara tilawah (membaca), tadabbur (memahami), hifdz (menghafalkan), tanfidz (mengamalkan), dan taklim (mengajarkan)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Selain segala amalan kebajikan dilipatgandakan di Ramadhan, membaca satu huruf dalam Alquran akan diberikan 10 kebaikan, bahkan bagi yang terbata-bata diberikan dua pahala."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Selain itu, kekhususan Ramadan dibandingkan bulan lain adalah bulan ketika Alquran diturunkan, alhasil banyak keberkahan di dalam bulan tersebut yang bisa diraih."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="3. Sedekah"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Umat Islam dianjurkan untuk banyak bersedekah di bulan Ramadan dengan mencontoh Nabi Muhammad SAW, baik untuk kepentingan fisabilillah maupun kaum dhuafa dan fakir miskin."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dan salah satu bentuk sedekah yang dianjurkan selama Ramadan adalah memberikan iftar alias santapan berbuka puasa) kepada orang-orang yang menunaikan ibadah puasa."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="4. Itikaf"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Salah satu amalan yang dicontohkan oleh Nabi Muhammad SAW di bulan Ramadan adalah mendekatkan diri kepada Allah dengan cara itikaf di masjid."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Itikaf dianjurkan dibiasakan setiap hari di Ramadhan, Tapi, diutamakan dikerjakan 10 hari terakhir Ramadan. Alasannya agar mendapati keagungan malam lailatul qadar."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="5. Umrah"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Keutamaan umrah di bulan Ramadan ini besar sekali. Rasulullah Saw pernah menganjurkan kepada seorang wanita Anshar (Ummu Sinan) yang tidak sempat berhaji bersama beliau."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Umrah termasuk dalam sunnah Nabi yang dianjurkan untuk dikerjakan saat Ramadan, bahkan pahalanya setara dengan ibadah haji."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Meski demikian, hal ini tidak menggugurkan kewajiban haji bagi yang mampu melakukannya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="6. Memburu Lailatul Qadar"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Rasulullah SAW mencari Lailatul Qadar dan memerintahkan para sahabatnya untuk menantinya setiap Ramadan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Bukan cuma itu, Nabi Muhammad SAW juga senantiasa membangunkan keluarganya pada malam 10 hari terakhir dengan harapan mendapatkan Lailatul Qadar."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Lailatul Qadar berada di 10 hari terakhir Ramadan, tepatnya pada malam-malam ganjilnya. Dan malam yang paling diharapkan adalah malam ke-27."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="7. Memperbanyak zikir, doa dan istigfar"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Umat Muslim dianjurkan untuk memperbanyak zikir, berdoa, istigfar dan meminta ampunan selama Ramadan terutama di waktu-waktu utama nan mulia, yakni malam dan siang hari."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Ada tiga waktu mustajab untuk berdoa, yakni saat berbuka, karena seorang yang berpuasa saat ia berbuka memiliki doa yang tak ditolak; sepertiga malam terakhir saat Allah turun ke langit dunia; dan beristighfar di waktu sahur."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

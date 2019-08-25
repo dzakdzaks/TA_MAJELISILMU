@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    android:fillViewport="true"
+    tools:context=".puasa.PuasaSunnah">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/puasa"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginEnd="12dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:src="@drawable/home" />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/puasa" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/puasa_sunnah"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Puasa sunnah adalah puasa yang tidak wajib dilakukan oleh umat Islam. Jika orang Islam melakukannya, maka dia akan mendapatkan pahala sedangkan jika
+dia tidak melakukannya maka dia tidak mendapatkan dosa.
+Puasa sunnah memiliki beberapa jenis diantaranya sebagai berikut.
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1.	Puasa Syawal"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Jenis puasa pertama dari puasa sunnah adalah puasa Syawal. Syawal sendiri adalah nama bulan setelah bulan Ramadhan. Puasa Syawal adalah berpuasa selama enam hari di bulan Syawal.
+Puasa ini bisa dilakukan secara berurutan dimulai dari hari kedua syawal ataupun bisa dilakukan secara tidak berurutan.
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2.	Puasa Arafah"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Puasa arafah adalah jenis puasa sunnah yang sangat dianjurkan bagi umat Islam yang tidak sedang berhaji. Sedangkan bagi umat Islam yang sedang berhaji, tidak ada keutamaan untuk puasa pada hari arafah atau tanggal 9 Dzulhijjah.
+Puasa arafah sendiri mempunyai keistimewaan bagi pelaksananya yaitu akan dihapuskan dosa-dosa pada tahun lalu serta dosa-dosa di tahun yang akan datang (HR. Muslim).
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+android:text="3.	Puasa Tarwiyah"
+                    android:textStyle="bold" android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+android:text="Puasa Tarwiyah adalah puasa yang dilaksanakan pada hari tarwiyah yakni tanggal 8 Dzulhijjah. Istilah tarwiyah sendiri berasal dari kata tarawwa yang berarti membawa bekal air. Hal tersebut karena pada hari itu, para jamaah haji membawa banyak bekal air zam-zam untuk persiapan arafah dan menuju Mina."                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+android:text="4.	Puasa Senin dan Kamis"                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Jenis puasa satu ini juga merupakan puasa sunnah terpopuler. Puasa senin kamis berawal ketika Nabi Muhammad SAW memerintah umatnya untuk senantiasa berpuasa di hari senin dan kamis.
+Karena hari senin merupakan hari kelahiran beliau sedangkan hari kamis adalah hari pertama kali Al-Qur’an diturunkan.
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="5.	Puasa Daud"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Sejatinya dalam ajaran agama Islam puasa wajib ada beberpa jenis yang harus kalaian ketahui. Yang di mana macam-macam puasa wajib tersebut terdapat empat yang sudah semestinya harus diketahui. "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+android:text="Jenis puasa ini merupakan puasa unik karena pasalnya puasa Daud adalah puasa yang dilakukan secara selang-seling (sehari puasa, sehari tidak). Puasa Daud bertujuan untuk meneladani puasanya Nabi Daud As. Puasa jenis ini juga ternyata sangat disukai Allah SWT."                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+android:text="6.	Puasa Asyura"
+                    android:textStyle="bold" android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+android:text="Bulan Muharram adalah bulan yang disunnahkan untuk memperbanyak puasa, boleh di awal bulan, pertengahan, ataupun di akhir. Namun, puasa paling utama adalah pada hari Asyura yakni tanggal sepuluh pada bulan Muharram.
+Puasa ini dikenal dengan istilah Yaumu Asyura yang artinya hari pada tanggal kesepuluh bulan Muharram.
+
+"                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="7.	Puasa Ayyamul Bidh"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+android:text="Umat Islam disunnahkan berpuasa minimal tiga kali dalam sebulan. Namun puasa lebih utama dilakukan pada ayyamul bidh, yaitu pada hari ke-13, 14, dan 15 dalam bulan Hijriyah atau bulan pada kalender Islam.
+Ayyamul bidh sendiri mempunyai arti hari putih karena pada malam-malam tersebut bulan purnama bersinar dengan sinar rembulannya yang putih.
+"                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+android:textStyle="bold"
+                    android:text="8.	Puasa Syaban " android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+android:text="Tidak hanya bulan Ramadhan yang mempunyai keistimewaan, bulan Sya’ban juga memiliki keistimewaan tersendiri. Pada bulan Sya’ban dianjurkan agar umat Islam mencari pahala sebanyak-banyaknya.
+Salah satunya adalah dengan melakukan puasa pada awal pertengahan bulan Sya’ban sebanyak-banyaknya.
+"                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

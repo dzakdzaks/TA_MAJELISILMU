@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    android:fillViewport="true"
+    tools:context=".sholat.WaktuDilarangSholat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/sholat"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginEnd="12dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:src="@drawable/home" />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sholat" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/waktu_dilarang_sholat"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Dari ‘Uqbah bin ‘Amir Radhiyallahu anhu, ia berkata"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="‘Tiga waktu yang Rasulullah Shallallahu ‘alaihi wa sallam melarang kami shalat atau mengubur orang-orang mati kami pada saat itu: ketika matahari terbit hingga naik, ketika pertengahan siang hingga matahari tergelincir, ketika matahari condong ke barat hingga tenggelam.’ "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Nabi Shallallahu ‘alaihi wa sallam telah menjelaskan alasan dilarangnya shalat dalam waktu-waktu ini melalui perkataan beliau kepada ‘Amr bin ‘Abasah: ‘Kerjakanlah shalat Shubuh. Kemudian hentikanlah shalat hingga matahari terbit dan naik. Karena sesungguhnya ketika terbit, matahari berada di antara dua tanduk syaitan. Pada waktu itu orang-orang kafir sujud kepada matahari. Setelah itu shalatlah, karena sesungguhnya shalat 	tersebut disaksikan dan dihadiri. Hingga bayangan naik setinggi tombak. Kemudian hentikanlah shalat. Karena waktu itu Jahannam bergolak. Jika bayangan telah condong ke barat, maka shalatlah, karena sesungguhnya shalat itu dihadiri dan disaksikan. Hingga engkau shalat ‘Ashar. Kemudian hentikanlah shalat hingga matahari terbenam. Karena sesungguhnya ia terbenam di antara dua tanduk syaitan. Dan ketika itu orang-orang kafir sujud kepada matahari.’"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dikecualikan dari Larangan Ini Waktu dan Tempat Tertentu Adapun waktu, adalah ketika matahari berada tepat di atas pada hari Jum’at:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dalilnya adalah sabda Nabi Shallallahu ‘alaihi wa sallam :"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="‘Tidaklah seseorang mandi pada hari Jum’at, lantas bersuci sebaik-baiknya, mengenakan minyak rambut, atau mengenakan minyak wangi rumahnya. Kemudian keluar dan tidak memisahkan antara dua orang, lalu shalat sunnah semampunya. Setelah itu ia diam ketika imam berkhutbah, melainkan akan diampuni dosa-dosanya antara Jum’at yang satu dengan Jum’at yang lain.’"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Beliau menganjurkan shalat sunnah semampunya dan tidak melarang kecuali setelah keluarnya imam. Oleh sebab itu, banyak ulama terdahulu, di antaranya ‘Umar bin al-Khaththab Radhiyallahu anhu, yang kemudian diikuti oleh al-Imam Ahmad bin Hanbal, mengatakan bahwa keluarnya imam menghentikan shalat, dan khutbahnya menghentikan perkataan. Mereka menjadikan keluarnya imam sebagai penghalang shalat, bukan pertengahan siang."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Adapun pengecualian tempat adalah, Makkah -semoga Allah menambah kemuliaan dan keagungannya-. Karena Allah Ta’ala telah melebihkannya dengan kemuliaan dan keagungan. Shalat di sana tidak ada yang dimakruhkan pada waktu-waktu tadi."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Berdasarkan sabda Nabi Shallallahu ‘alaihi wa sallam : 'Wahai Bani ‘Abdi Manaf, janganlah kalian menghalangi siapa pun yang melakukan thawaf dan shalat di Baitullah ini kapan saja. Baik malam maupun siang hari.'"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Shalat yang dilarang pada waktu-waktu tersebut adalah shalat sunnah murni yang tidak ada sebabnya. Pada waktu-waktu ini diperbolehkan untuk mengqadha shalat-shalat yang terlewatkan, baik wajib maupun sunnah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dalilnya adalah berdasarkan sabda Nabi Shallallahu ‘alaihi wa sallam :"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="'Barangsiapa lupa terhadap suatu shalat, maka hendaklah ia shalat ketika ingat. Tidak ada kaffarat baginya kecuali (shalat) itu.'"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="	Shalat setelah selesai wudhu’ juga boleh untuk dilakukan kapan saja."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dalilnya adalah berdasarkan hadits Abu Hurairah Radhiyallahu anhu, di mana Nabi 	Shallallahu ‘alaihi wa sallam berkata pada Bilal ketika Shubuh, “Wahai Bilal, beritahulah 	aku amalan yang paling engkau harapkan (pahalanya) yang engkau kerjakan dalam Islam. 	Karena sesungguhnya aku mendengar suara kedua sandalmu berada di depanku dalam 	Surga.” Bilal menjawab, “Tidaklah aku melakukan suatu amalan yang paling kuharapkan 	(pahalanya). Hanya saja, tidaklah aku bersuci, baik saat petang maupun siang, melainkan 	aku shalat sunnah dengannya.”"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Diperbolehkan juga shalat tahiyyatul masjid.
+	Berdasarkan sabda Nabi Shallallahu ‘alaihi wa sallam :
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="‘Jika salah seorang di antara kalian masuk masjid, maka janganlah duduk hingga shalat 	dua raka’at.’"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dilarang Shalat Sunnah setelah Fajar Terbit dan Sebelum Shalat Shubuh:
+	Dari Yasar bekas budak Ibnu ‘Umar, dia berkata, “Ibnu ‘Umar melihatku sedang shalat 	setelah fajar terbit. Lalu dia berkata, ‘Wahai Yasar, sesungguhnya Rasulullah Shallallahu 	‘alaihi wa sallam keluar menemui kami ketika kami sedang melakukan shalat ini. 	Kemudian beliau bersabda, ‘Hendaklah orang yang hadir di antara kalian memberitahu 	yang tidak hadir. Janganlah kalian shalat setelah fajar kecuali dua raka’at.'”
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dilarang Shalat Sunnah setelah Iqamat
+	Dari Abu Hurairah Radhiyallahu anhu, Nabi Shallallahu ‘alaihi wa sallam bersabda:
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="“Jika iqamat shalat sudah dikumandangkan, maka tidak ada shalat selain shalat wajib.”"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Tempat-Tempat Dilarangnya Shalat"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dari Abu Hurairah Radhiyallahu anhu, Rasulullah Shallallahu ‘alaihi wa sallam 	bersabda:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Tempat-Tempat Dilarangnya Shalat
+	Dari Abu Hurairah Radhiyallahu anhu, Rasulullah Shallallahu ‘alaihi wa sallam 	bersabda:
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text=" “Aku dilebihkan atas para Nabi dengan enam perkara: (1) aku diberi ucapan yang 	singkat dan penuh makna, (2) aku ditolong dengan rasa takut (musuh atasku), (3) 	dihalalkan bagiku harta rampasan perang, (4) bumi dijadikan sarana bersuci dan masjid 	untukku, (5) aku diutus untuk seluruh makhluk, dan (6) para Nabi ditutup denganku.”"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Semua bumi adalah masjid selain yang dikecualikan dalam beberapa hadits di bawah ini:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dari Jundub bin ‘Abdillah al-Bajali Radhiyallahu anhu, dia berkata, “Lima hari sebelum 	Rasulullah Shallallahu ‘alaihi wa sallam meninggal aku mendengar beliau Shallallahu 	‘alaihi wa sallam bersabda:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="‘Ketahuilah, sesungguhnya orang-orang sebelum kalian menjadikan kubur-kubur para 	Nabi dan orang-orang shalih mereka sebagai masjid. Ketahuilah, janganlah kalian 	menjadikan kubur sebagai masjid. Sesungguhnya aku melarang kalian melakukan hal 	itu.’"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dari Abu Sa’id al-Khudri Radhiyallahu anhu, dia mengatakan bahwasanya Rasulullah 	Shallallahu ‘alaihi wa sallam bersabda:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="“Semua bumi adalah masjid kecuali kubur dan kamar mandi.”"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Dan beliau ditanya tentang shalat di penambatan kambing. Beliau menjawab:"
+                    android:layout_marginTop="6dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dari al-Barra’ bin ‘Azib Radhiyallahu anhu, dia mengatakan bahwasanya Rasulullah 	Shallallahu ‘alaihi wa sallam ditanya tentang shalat di penderuman unta. Beliau 	menjawab: “Janganlah kalian shalat di penderuman unta. Karena ia termasuk syaitan.”"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="“Shalatlah di situ, karena ia adalah barakah.”"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

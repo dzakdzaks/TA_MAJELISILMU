@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    android:fillViewport="true"
+    tools:context=".puasa.PuasaWjib">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/puasa"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginEnd="12dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:src="@drawable/home" />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/puasa" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/puasa_wajib"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1.	Puasa Ramadhan"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dari beberpa macam-macam puasa wajib yang ada dalam ajaran agama islam, mungkin puasa Ramadan menjadi salah satu puasa yang sudah dikenal baik oleh semua orang muslim di dunia ini."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Bagaimana tidak, puasa ini merupakan salah satu puasa wajib hukumnya di kerjakan bagi setiap orang yang sudah baligh dan berakal serta dalam keadaan sehat."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Didalam bulan suci Ramadan pun banyak sekali amalan yang bisa kita lakukan agar menambah pund-pundi pahala kita untuk bekal kelak di akhirat. Tidak hanya sampai disitu, bagi muslim dan muslimah yang mengerjakannya pun di katakan harus mengetahui adab atau rukun puasa Ramadan seperti niat puasa ramadhan, dan waktu pelaksanannya yang di mulai dari sejal adzan subuh hingga adzan maghrib."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2.	Puasa Qodha"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Selain puasa ramadhan, ternyata ada juga macam-macam puasa wajib lain yang mungkin masih ada banyak orang yang belum mengetahuinya. Adalah “Puasa Qodha”, apa itu puasa qodha?"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Puasa ini merupakan puasa yang wajib yang di lakukan sebagai pengganti puasa Ramadan yang kita tinggalkan karena beberapa alasan yang memang disyariatkan oleh ajaran agama Islam."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Sebagaimana telah di tuliskan pada QS. Al-Baqarah Ayat 184 yang berbunyi "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="“(yaitu) dalam beberapa hari yang tertentu. Maka barang siapa diantara kamu ada yang sakit atau dalam perjalanan (lalu ia berbuka), maka (wajiblah baginya berpuasa) sebanyak hari yang ditinggalkan itu pada hari-hari yang lain. Dan wajib bagi orang-orang yang berat menjalankannya (jika mereka tidak berpuasa) membayar fidyah, (yaitu): memberi makan seorang miskin. Barangsiapa yang dengan kerelaan hati mengerjakan kebajikan, maka itulah yang lebih baik baginya. Dan berpuasa lebih baik bagimu jika kamu mengetahui.”"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Makan kita sebagai umat muslim yang taat terhadap peraturan yang sudah ada di dalam ajaran agama islam sudah semestinya harus melakukan puasa Qodha yang mana puasa akan lebih baik di kerjakan sebelum bulan suci Ramadan selanjutnya datang.
+Sehingga dalam pelasakan puasa ramadhan yang akan datang kalian sudah tidak lagi memiliki hutang puasa Ramadan tahun sebelumnya.
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="3.	Puasa Karafat"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Sejatinya dalam ajaran agama Islam puasa wajib ada beberpa jenis yang harus kalaian ketahui. Yang di mana macam-macam puasa wajib tersebut terdapat empat yang sudah semestinya harus diketahui. "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Yang mana selain dua puasa diatas, kalian juga harus mengetahui bahwa puasa Kafarat juga merupakan puasa wajib yang mau tidak mau harus di lakukan setiap orang mulsim."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Adapun dalam pelaksaan puasa Kafarat yang sudah jelas memiliki hukum wajib apabila di tinggalkan akan menimbulkan dosa dan apabila di kerjakan merupakan pahala. Puasa Kafarat sendiri merupakan puasa penebusan yang dimana bisa dilakukan setiap orang ketika mereka telah melakukan beberapa hal seperti melakukan hunungan suami istri pada saat siang hari di bulan Ramadan, melakukan dengan sengaja tidak puasa atau membatalkannya di bulan Ramadan, dan melakukan pembunuhan terhadap secara muslim tanpa sengaja."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="4.	Puasa Nadzar"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Kemudian macam-macam puasa wajib yang harus kalian ketahi terakhir adalah puasa Nadzar. Didalam kehidupan didunia ini mungkin kalian sudah sering mendengar kata nadzar, dimana nadzar merupakan sebuah janji terhadap Allah ketika ia akan melakukan sesuatu dan itu berhasil. Sebagai contoh kalian bernadzar akan melakukan puasa 3 hari ketika lulus ujian sekolah atau kerja.
+Namun tanpa disadari kalian lupa akan hal tersebut, maka Islam menegaskan bahwa kalian harus melakukan puasa nadzar tersebut ketika kalian sudah mengingat apa yang telah kalian ucapkan atau janjikan kepada Allah SWT.
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="5.	Puasa Dalam Haji Dan Umrah"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Selain mengenal ke-4 macam-macam puasa wajib diats, ada satu lagi jenis puasa wajib yang boleh di kerkakan ketika kalian menunaikan ibadah haji atau ibadah umrah. Dan jenis atau macam-macam puasa wajib yang terakhir ini adalah puasa dalam haji dan umrah. "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dalam konteks ini, ketika anda sedang menunaikan ibadah haji atau menunaikan ibadah umrah, setidaknya bisa melakukan puasa wajib yang niatnya untuk mengganti dari penyembelihan hewan untuk fidyah. "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Itulah beberapa jenis atau macam-macam puasa wajib yang bisa kalian ketahui dan pelajari. Semoga informasi ini bisa bermanfaat dan bisa menjadi sumber referensi bagi kalian semuanya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

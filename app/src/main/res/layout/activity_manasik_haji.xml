@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    android:fillViewport="true"
+    tools:context=".haji.ManasikHaji">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/haji"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginEnd="12dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:src="@drawable/home" />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/kabah" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/manasik_haji"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Umrah (Arab: عمرة‎) adalah salah satu kegiatan ibadah dalam agama Islam. Hampir mirip dengan ibadah haji, ibadah ini dilaksanakan dengan cara melakukan beberapa ritual ibadah di kota suci Mekkah, khususnya di Masjidil Haram. "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Pada istilah teknis syari'ah, Umrah berarti melaksanakan tawaf di Ka'bah dan sa'i antara Shofa dan Marwah, setelah memakai ihram yang diambil dari miqat. Sering disebut pula dengan haji kecil. "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Perbedaan umrah dengan haji adalah pada waktu dan tempat. Umrah dapat dilaksanakan sewaktu-waktu (setiap hari, setiap bulan, setiap tahun) dan hanya di Mekkah, sedangkan haji hanya dapat dilaksanakan pada beberapa waktu antara tanggal 8 Dzulhijjah hingga 12 Dzulhijjah serta dilaksanakan sampai ke luar kota Mekkah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Hukum Umrah"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Ulama sepakat bahwa hukum melaksanakan haji itu fardu ain seumur hidup hanya sekali bagi yang mampu. Namun demikian, ulama berbeda pendapat mengenai hukum umrah. Syekh Wahbah al-Zuhaili menjelaskan dalam al-Fiqhul Islami wa Adillatuh sebagai berikut:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Menurut ulama mazhab Hanafi dan dua pendapat paling unggul di antara ulama mazhab Maliki, melakukan umrah itu sunah muakad selama seumur hidup satu kali."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Pendapat tersebut, menurut Syekh Wahbah, didasarkan atas hadis-hadis tentang fondasi Islam itu ada lima. Di antara yang disebutkan hanyalah kewajiban haji, tidak disebutkan mengenai umrah. Selain itu, menurut Syekh Wahbah, pendapat tersebut didasarkan pada hadis riwayat Jabir dan Abu Hurairah demikian:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Diriwayatkan bahwa ada seorang Arab badui yang datang pada Nabi saw. “Wahai Rasul, aku ingin tahu tentang umrah, apa umrah itu wajib?” tanya Arab badui penasaran. Rasulullah menjawab, “Umrah tidak wajib. Tapi kalau kamu umrah itu lebih baik.” Dalam riwayat lain menggunakan redaksi lebih utama. (HR. Tirmidzi) "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Haji itu bagaikan jihad, dan umrah itu ibadah sunah. (HR Baihaqi dan Darqutni)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Namun demikian, Syekh Wahbah lebih memilih pendapat yang menyatakan bahwa umrah itu wajib seumur hidup sekali bagi yang mampu sebagaimana ibadah haji. Menurut Syekh Wahbah, pendapat ini dipelopori kaul azhar ulama mazhab Syafii dan Hambali. Alasannya, hadis-hadis di atas itu daif, dan terdapat dalil Alquran yang menyatakan kewajiban haji dan umrah dengan redaksi perintah (shigatul amr) sebagaimana firman Allah Swt. berikut:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Sempurnakanlah haji dan umrah kalian karena Allah (Q.S. al-Baqarah; 196)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Selain itu, terdapat hadis yang diriwayatkan Aisyah yang mengindikasikan bahwa umrah itu wajib sebagaimana berikut:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:textStyle="italic"
+                    android:text="“Aku bertanya pada Rasulullah,” kata Aisyah. “Rasul, apaka perempuan itu wajib jihad?” “Iya, perempuan itu wajib jihad yang di dalamnya tidak ada peperangan, yaitu melakukan haji dan umrah” (HR Ibnu Majah dan Baihaqi)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dari pendapat di atas, kita dapat menyimpulkan bahwa umrah itu paling tidak dilakukan seumur hidup sekali, baik menurut pendapat yang menganggapnya wajib maupun sunah. Bagi ulama yang menganggapnya sunah, umrah kedua, ketiga, dan seterusnya sudah tidak dianggap sunah muakad lagi, alias mubah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

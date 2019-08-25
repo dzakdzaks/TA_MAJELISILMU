@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    android:fillViewport="true"
+    tools:context=".puasa.KajianPuasa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/puasa"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginEnd="12dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:src="@drawable/home" />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/puasa" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/kajian_puasa"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Keutamaan Bulan Ramadhan"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Ramadhan adalah Bulan Diturunkannya Al-Qur’an"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Bulan Ramadhan adalah bulan yang mulia. Bulan ini dipilih  sebagai bulan untuk berpuasa dan pada bulan ini pula Al-Qur’an diturunkan. Sebagaimana Allah ta’ala berfirman,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/puasa_1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="“(Beberapa hari yang ditentukan itu ialah) bulan Ramadhan, bulan yang di dalamnya diturunkan (permulaan) Al Quran sebagai petunjuk bagi manusia dan penjelasan-penjelasan mengenai petunjuk itu dan pembeda (antara yang hak dan yang bathil). Karena itu, barangsiapa di antara kamu hadir (di negeri tempat tinggalnya) di bulan itu, maka hendaklah ia berpuasa pada bulan itu.” (QS. Al Baqarah [2] : 185)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Ibnu Katsir rahimahullah tatkala menafsirkan ayat yang mulia ini mengatakan,”(Dalam ayat ini) Allah ta’ala memuji bulan puasa –yaitu bulan Ramadhan- dari bulan-bulan lainnya. Allah memuji demikian karena bulan ini telah Allah pilih sebagai bulan diturunkannya Al Qur’an dari bulan-bulan lainnya. Sebagaimana pula pada bulan Ramadhan ini Allah telah menurunkan kitab ilahiyah lainnya pada para Nabi ‘alaihimus salam.” (Tafsirul Qur’anil Adzim, I/501, Darut Thoybah)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Setan-setan Dibelenggu, Pintu-pintu Neraka Ditutup dan Pintu-pintu Surga Dibuka Ketika Ramadhan Tiba"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Rasulullah shallallahu ‘alaihi wa sallam bersabda,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="“Apabila Ramadhan tiba, pintu surga dibuka, pintu neraka ditutup, dan setan pun dibelenggu.” (HR. Muslim)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Syaikh Ibnu Utsaimin rahimahullah mengatakan,”Pintu-pintu surga dibuka pada bulan ini karena banyaknya amal saleh dikerjakan sekaligus untuk memotivasi umat islam untuk melakukan kebaikan. Pintu-pintu neraka ditutup karena sedikitnya maksiat yang dilakukan oleh orang yang beriman. Setan-setan diikat kemudian dibelenggu, tidak dibiarkan lepas seperti di bulan selain Ramadhan.” (Majalis Syahri Ramadhan, hal. 4, Wazarotul Suunil Islamiyyah)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Terdapat Malam yang Penuh Kemuliaan dan Keberkahan"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Pada bulan Ramadhan terdapat suatu malam yang lebih baik dari seribu bulan yaitu lailatul qadar (malam kemuliaan). Pada malam inilah -yaitu 10 hari terakhir di bulan Ramadhan- saat diturunkannya Al Qur’anul Karim."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Allah ta’ala berfirman,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/puasa_2_a" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/puasa_2_b" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/puasa_2_c" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="“Sesungguhnya Kami telah menurunkannya (Al Quran) pada lailatul qadar (malam kemuliaan). Dan tahukah kamu apakah malam kemuliaan itu? Malam kemuliaan itu lebih baik dari seribu bulan.” (QS. Al Qadr [97] : 1-3)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dan Allah ta’ala juga berfirman,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/puasa_3" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="“Sesungguhnya Kami menurunkannya pada suatu malam yang diberkahi dan sesungguhnya Kami-lah yang memberi peringatan.” (QS. Ad Dukhan [44] : 3)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Ibnu Abbas, Qotadah dan  Mujahid mengatakan bahwa malam yang diberkahi tersebut adalah malam lailatul qadar. (Lihat Ruhul Ma’ani, 18/423, Syihabuddin Al Alusi)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Bulan Ramadhan adalah Salah Satu Waktu Dikabulkannya Doa"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Rasulullah shallallahu ‘alaihi wa sallam bersabda,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="
+“Sesungguhnya Allah membebaskan beberapa orang dari api neraka pada setiap hari di bulan Ramadhan,dan setiap muslim apabila dia memanjatkan do’a maka pasti dikabulkan.” (HR. Al Bazaar sebagaimana dalam Mujma’ul Zawaid dan Al Haytsami mengatakan periwayatnya tsiqoh/terpercaya. Lihat Jami’ul Ahadits, Imam Suyuthi)
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Keutamaan Puasa"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1. Puasa adalah Perisai"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Rasulullah shallallahu ‘alaihi wa sallam bersabda,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="“Puasa adalah perisai yang dapat melindungi seorang hamba dari api neraka.” (HR. Ahmad dan Baihaqi, dihasankan oleh Syaikh Al Albani dalam Shohihul Jami’)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="2. Orang yang Berpuasa akan Mendapatkan Pahala yang Tak Terhingga"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="3. Orang yang Berpuasa akan Mendapatkan Dua Kebahagiaan "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="4. Bau Mulut Orang yang Bepuasa Lebih Harum di Hadapan Allah daripada Bau Misik/Kasturi"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dari Abu Hurairah radhiyallahu ‘anhu, Rasulullah shallallahu ‘alaihi wa sallam bersabda,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="قَالَ اللَّهُ : كُلُّ عَمَلِ ابْنِ آدَمَ لَهُ إِلاَّ الصِّيَامَ ، فَإِنَّهُ لِى ، وَأَنَا أَجْزِى بِهِ . وَالصِّيَامُ جُنَّةٌ ، وَإِذَا كَانَ يَوْمُ صَوْمِ أَحَدِكُمْ ، فَلاَ يَرْفُثْ وَلاَ يَصْخَبْ ، فَإِنْ سَابَّهُ أَحَدٌ ، أَوْ قَاتَلَهُ فَلْيَقُلْ إِنِّى امْرُؤٌ صَائِمٌ . وَالَّذِى نَفْسُ مُحَمَّدٍ بِيَدِهِ لَخُلُوفُ فَمِ الصَّائِمِ أَطْيَبُ عِنْدَ اللَّهِ مِنْ رِيحِ الْمِسْكِ ، لِلصَّائِمِ فَرْحَتَانِ يَفْرَحُهُمَا إِذَا أَفْطَرَ فَرِحَ ، وَإِذَا لَقِىَ رَبَّهُ فَرِحَ بِصَوْمِهِ"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="“Allah berfirman,’Setiap amal anak Adam adalah untuknya kecuali puasa. Puasa tersebut adalah untuk-Ku dan Aku yang akan membalasnya. Puasa adalah perisai. Apabila salah seorang dari kalian berpuasa maka janganlah berkata kotor, jangan pula berteriak-teriak. Jika ada seseorang yang mencaci dan mengajak berkelahi maka katakanlah,’Saya sedang berpuasa’. Demi Dzat yang jiwa Muhammad berada di tangan-Nya, sesungguhnya bau mulut orang yang berpuasa lebih harum di sisi Allah pada hari kiamat daripada bau misk/kasturi. Dan bagi orang yang berpuasa ada dua kegembiraan, ketika berbuka mereka bergembira dengan bukanya dan ketika bertemu Allah mereka bergembira karena puasanya’. “ (HR. Bukhari dan Muslim)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="5. Puasa akan Memberikan Syafaat bagi Orang yang Menjalankannya"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Rasulullah shallallahu ‘alaihi wa sallam bersabda,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text=" “Puasa dan Al-Qur’an itu akan memberikan syafaat kepada seorang hamba pada hari kiamat nanti. Puasa akan berkata,’Wahai Tuhanku, saya telah menahannya dari makan dan nafsu syahwat, karenanya perkenankan aku untuk memberikan syafaat kepadanya’. Dan Al-Qur’an pula berkata,’Saya telah melarangnya dari tidur pada malam hari, karenanya perkenankan aku untuk memberi syafaat kepadanya.’ Beliau bersabda, ‘Maka syafaat keduanya diperkenankan.’” (HR. Ahmad, Hakim, Thabrani, periwayatnya shahih sebagaimana dikatakan oleh Al Haytsami dalam Mujma’ul Zawaid)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="6. Orang yang Berpuasa akan Mendapatkan Pengampunan Dosa"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Abu Hurairah radhiyallahu ‘anhu berkata, Rasulullah shallallahu ‘alaihi wa sallam bersabda,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text=" “Barangsiapa yang berpuasa di bulan Ramadhan karena iman dan mengharap pahala dari Allah maka dosanya di masa lalu pasti diampuni”. (HR. Bukhari dan Muslim)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="7. Bagi Orang yang Berpuasa akan Disediakan Ar Rayyan"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Sahl bin Sa’d radhiyallahu ‘anhu berkata, Rasulullah shallallahu ‘alaihi wa sallam bersabda,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text=" “Sesungguhnya di surga ada sebuah pintu yang bernama  Ar-Royyaan. Pada hari kiamat orang-orang yang berpuasa akan masuk surga melalui pintu tersebut dan tidak ada seorang pun yang masuk melalui pintu tersebut kecuali mereka. Dikatakan kepada mereka,’Di mana orang-orang yang berpuasa?’ Maka orang-orang yang berpuasa pun berdiri dan tidak ada seorang pun yang masuk melalui pintu tersebut kecuali mereka. Jika mereka sudah masuk, pintu tersebut ditutup dan tidak ada lagi seorang pun yang masuk melalui pintu tersebut”. (HR. Bukhari dan Muslim)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Semoga pembahasan di atas dapat mendorong kita agar lebih bersemangat untuk mendapatkan keutamaan berpuasa di bulan Ramadhan dengan cara menghiasi hari-hari di bulan yang penuh berkah tersebut dengan amal saleh yang sesuai dengan tuntunan Allah dan Rasul-Nya yang mulia."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Alhamdulillahilladzi bi ni’matihi tatimmush sholihaat, wa shallallahu ‘ala nabiyyina Muhammad wa ‘ala alihi wa shohbihi wa sallam."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

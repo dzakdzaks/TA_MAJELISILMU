@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    android:fillViewport="true"
+    tools:context=".zakat.ZakatFitrah">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/zakat"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginEnd="12dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:src="@drawable/home" />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zakat" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/zakat_fitrah"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Zakat fitrah merupakan salah satu dari jenis zakat yang wajib dikeluarkan setiap individu merdeka dan mampu serta sesuai dengan syarat yang telah ditetapkan. Zakat sendiri telah menjadi salah satu bagian dari rukun islam yang ke-4. Oleh karena itu, diwajibkan kita sebagai umat muslim untuk selalu membayar zakat terutama zakat fitrah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Pengertian dari zakat fitrah sendiri yaitu zakat yang berguna untuk membersihkan harta dan sebagai pelengkap ibadah puasa kita. Tanpa zakat fitrah, puasa kita tidak terlengkapi."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/fitrah_1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:textStyle="italic"
+                    android:text="“Dari Ibnu Umar radhiallahuanhuma sesungguhnya Rasulullah Shallallahu’alaihi wasallam bersabda: Aku diperintahkan untuk memerangi manusia hingga mereka bersaksi bahwa tidak ada Ilah selain Allah dan bahwa Muhammad adalah Rasulullah, menegakkan shalat, menunaikan zakat. Jika mereka melakukan hal itu maka darah dan harta  mereka akan dilindungi kecuali dengan hak Islam dan perhitungan mereka ada pada Allah Subhanahu wata’ala.” (HR. Bukhari no. 25; Muslim no. 22)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Apa saja Syarat-syarat Zakat Fitrah?"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Sebelum mengeluarkan zakat fitrah, ada baiknya kita ketahui terlebih dahulu syarat-syarat wajib zakat fitrah yaitu sebagai berikut:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1.	Beragama Islam dan Merdeka,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2.	Menemui dua waktu yaitu diantara bulan Ramadhan dan Syawal walaupun hanya sesaat,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="3.	Mempunyai harta yang lebih dari pada kebutuhannya sehari-hari untuk dirinya dan orang-orang di bawah tanggungan pada hari raya dan malamnya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Persyaratan di atas merupakan syarat-syarat untuk orang yang wajib zakat fitrah. Ada juga syarat tidak wajib zakat fitrah yaitu,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1.	Orang yang meninggal sebelum terbenam matahari pada akhir Ramadhan,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2.	Anak yang lahir selepas terbenam matahari pada akhir Ramadhan,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="3.	Orang yang baru memeluk agama Islam sesudah matahari terbenam pada akhir Ramadhan,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="4.	Tanggungan istri yang baru saja dinikahi selepas matahari terbenam pada akhir Ramadhan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Kapan Zakat Fitrah Harus Dikeluarkan?"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Jika Anda termasuk orang yang wajib mengeluarkan zakat fitrah, ada baiknya Sahabat Zakat mengeluarkannya pada waktu yang tepat."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/fitrah_2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:textStyle="italic"
+                    android:text="“Telah menceritakan kepada kami [Muslim bin Amru bin Muslim Abu Amru Al Khaddza’ Al Madani] telah menceritakan kepadaku [Abdullah bin Nafi’ As Sha`igh] dari [Ibnu Abu Zannad] dari [Musa bin Uqbah] dari [Nafi’] dari [Ibnu Umar] bahwasanya Rasulullah Shallallaahu ‘alaihi wasallam memerintahkan untuk membayar zakat fitrah sebelum berangkat (ke tempat shalat) pada hari raya idul fitri. Abu ‘Isa berkata, ini merupakan hadits hasan shahih gharib, atas dasar ini para ulama lebih menganjurkan untuk membayar zakat fitrah sebelum berangkat shalat.” (HR. Tirmidzi: 613)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dari hadis tersebut, telah dikatakan bahwa zakat fitrah sebaiknya dilaksanakan sebelum sholat Idul Fitri. Walaupun demikian, ada baiknya juga kita melaksanakan zakat fitrah kita sebelum hari raya supaya kewajiban kita terpenuhi lebih cepat."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Mengapa Sahabat perlu mengetahui waktu wajib zakat fitrah? Karena terlewat dari waktu tersebut maka Sahabat waktu haram untuk memberikan zakat fitrah. Berikut uraian waktu zakat yang tepat untuk mengeluarkan zakat fitrah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Mengapa Sahabat perlu mengetahui waktu wajib zakat fitrah? Karena terlewat dari waktu tersebut maka Sahabat waktu haram untuk memberikan zakat fitrah. Berikut uraian waktu zakat yang tepat untuk mengeluarkan zakat fitrah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="•	Waktu Harus: bermula dari awal bulan Ramadhan sampai akhir bulan Ramadhan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="•	Waktu Wajib: setelah matahari terbenam pada akhir bulan Ramadhan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="•	Waktu Afdhal: setelah melaksanakan solat subuh pada hari akhir Ramadhan sampai sebelum mengerjakan sholat idul fitri."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="•	Waktu Makruh: melaksanakan sholat idul fitri sehingga sebelum terbenam matahari."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="•	Waktu Haram: setelah matahari terbenam pada hari raya Idul Fitri."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="12dp"
+                    android:text="Berapa Zakat Fitrah yang Harus Dikeluarkan?"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Sahabat Zakat ingin mengeluarkan zakat fitrah sekarang? Setelah mengetahui syarat dan kapan untuk melaksanakan zakat fitrah, ada baiknya Sahabat juga mengetahui seberapa besar zakat fitrah yang harus dikeluarkan per-indivunya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Zakat fitrah merupakan zakat yang harus dikeluarkan sebelum sholat idul fitri berlangsung. Jenis zakatnya yaitu sesuai dengan makanan pokok kita dan di Indonesia sendiri makanan pokoknya adalah beras."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Setiap balita hingga orang dewasa memiliki kewajiban membayar zakat sebesar 3,5 liter atau 2,5 kg beras. Apabila Sahabat Zakat ingin menggantikannya dengan uang, Sahabat harus membayar sesuai dengan harga dari 2,5 beras tersebut. Yang selanjutnya Sahabat bisa salurkan kepada  masjid terdekat atau kepada lembaga amil zakat yang terpercaya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

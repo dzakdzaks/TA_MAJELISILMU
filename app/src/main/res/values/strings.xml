@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Majelis Ilmu</string>
+    <string name="sholat">Sholat</string>
+    <string name="majelis_ilmu">Majelis Ilmu</string>
+    <string name="haji">Haji &amp; Umroh</string>
+    <string name="puasa">Puasa</string>
+    <string name="zakat">Zakat</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="copyright">© Copyright Fikri 2019</string>
+    <string name="tata_cara_sholat">Tata Cara Sholat</string>
+    <string name="dalil_perintah_sholat">Dalil Perintah Sholat</string>
+    <string name="waktu_dilarang_sholat">Waktu Dilarang Sholat</string>
+    <string name="hukum_sholat_fardhu">Hukum Sholat Fardhu</string>
+    <string name="syarat_wajib_sholat">Syarat Wajib Sholat</string>
+    <string name="syarat_sah_sholat">Syarat Sah Sholat</string>
+    <string name="rukun_sholat">Rukun Sholat</string>
+    <string name="kajian_puasa">Kajian Puasa</string>
+    <string name="amalan_dalam_puasa">Amalan Dalam Puasa</string>
+    <string name="puasa_wajib">Puasa Wajib</string>
+    <string name="puasa_sunnah">Puasa Sunnah</string>
+    <string name="puasa_makhruh">Puasa Makhruh</string>
+    <string name="puasa_haram">Puasa Haram</string>
+    <string name="zakat_fitrah">Zakat Fitrah</string>
+    <string name="zakat_mall_harta">Zakat Mall / Harta</string>
+    <string name="manasik_haji">Manasik Haji</string>
+    <string name="mandi_besar">Mandi Besar</string>
+    <string name="sholat_sunnah_dan_larangan_ihram">Sholat Sunnah dan Larangan Ihram</string>
+    <string name="perjalanan_menuju_mekkah">Perjalanan Menuju Mekkah</string>
+    <string name="melakukan_thawaf">Melakukan Thawaf</string>
+    <string name="sholat_di_maqam_ibrahim">Sholat Di Maqam Ibrahim</string>
+    <string name="berangkat_menuju_miqab">Berangkat Menuju Miqab</string>
+    <string name="fikri_akbar">Fikri Akbar</string>
+</resources>

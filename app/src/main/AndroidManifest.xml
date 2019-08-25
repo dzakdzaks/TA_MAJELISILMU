@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fikri.tamii">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".about.About" />
+        <activity android:name=".profile.Profile" />
+        <activity android:name=".haji.MaqamIbrahim" />
+        <activity android:name=".haji.Thawaf" />
+        <activity android:name=".haji.Mekkah" />
+        <activity android:name=".haji.SunnahDenganIhram" />
+        <activity android:name=".haji.Miqab" />
+        <activity android:name=".haji.MandiBesar" />
+        <activity android:name=".haji.ManasikHaji" />
+        <activity android:name=".puasa.PuasaHaram" />
+        <activity android:name=".puasa.PuasaMakhruh" />
+        <activity android:name=".puasa.PuasaSunnah" />
+        <activity android:name=".puasa.PuasaWjib" />
+        <activity android:name=".puasa.AmalanDalamPuasa" />
+        <activity android:name=".puasa.KajianPuasa" />
+        <activity android:name=".zakat.ZakatMall" />
+        <activity android:name=".zakat.ZakatFitrah" />
+        <activity android:name=".sholat.RukunSholat" />
+        <activity android:name=".sholat.SyaratSahSholat" />
+        <activity android:name=".sholat.SyaratWajibSholat" />
+        <activity android:name=".sholat.HukumSholatFardhu" />
+        <activity android:name=".sholat.WaktuDilarangSholat" />
+        <activity android:name=".sholat.DalilPerintahSholat" />
+        <activity android:name=".sholat.TataCaraSholat" />
+        <activity android:name=".home.Haji" />
+        <activity android:name=".home.Zakat" />
+        <activity android:name=".home.Puasa" />
+        <activity android:name=".home.Sholat" />
+        <activity android:name=".home.MainActivity" />
+
+    </application>
+
+</manifest>

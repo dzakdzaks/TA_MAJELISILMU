@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    android:fillViewport="true"
+    tools:context=".haji.Miqab">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/haji"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+
+            <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginEnd="12dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:src="@drawable/home" />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/kabah" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/berangkat_menuju_miqab"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Miqat (Arab: ميقات‎) adalah batas bagi dimulainya ibadah haji (batas-batas yang telah ditetapkan). Apabila melintasi miqat, seseorang yang ingin mengerjakan haji perlu mengenakan kain ihram dan memasang niat. Miqat digunakan dalam melaksanakan ibadah haji dan umrah. "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Miqat terdiri dari dua jenis: "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="1.	Miqat Zamani (ﻣﻴﻘﺎﺕ ﺯﻣﺎﻧﻲ)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Batas yang ditentukan berdasarkan waktu: "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="o	Bagi haji, miqat bermula pada bulan Syawal sampai terbit fajar tanggal 10 Zulhijah yaitu ketika ibadah haji dilaksanakan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="o	Bagi umrah, miqat zamani bermula pada sepanjang tahun pada waktu umrah dapat dilakukan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="2.	Miqat Makani (ﻣﻴﻘﺎﺕ ﻣﻛﺎﻧﻲ)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="batas yang ditentukan berdasarkan tempat: "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="o	Bagi mereka yang tinggal di Makkah, tempat untuk ihram haji adalah Makkah itu sendiri (rumah sendiri). Untuk umrah ialah keluar dari tanah haram Makkah yaitu sebaiknya di Ji'ranah, Tan'eim atau Hudaibiyah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="o	Bagi mereka yang datang dari sebelah timur seperti Indonesia, Malaysia, Singapura dan kebanyakan negara Asia lain, tempatnya adalah di Yalamlam (ﻳﻠﻣﻠﻢ). Adapun pendapat yang mengatakan Jeddah (ﺟﺪﻩ).sebagai miqat bertolak belakang dengan dalil yang shahih,"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="o	Bagi yang datang dari barat seperti Mesir, miqatnya di Juhfah (ﺟﺤﻔﻪ)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="o	Bagi yang datang dari selatan seperti Yaman, tempat untuk berihram adalah Qarnul Manazil (ﻗﺮﻦﺍﻠﻣﻨﺎﺯﻝ)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="o	Bagi yang datang dari Madinah, tempatnya di Dzulhulaifah Bir Ali (Abyar 'Ali) (ﺫﻭﺍﻟﺣﻠﻴﻔﻪ ﺍﺑﻳﺎﺭ ﻋﻠﻲ)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="o	Bagi yang datang dari bahagian Iraq pula adalah di Dzatu 'Irq (ﺫﺍﺕ ﻋﺮﻕ)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Dan, beliau bersabda, ‘Tempat-tempat itulah untuk (penduduk) mereka masing-masing dan untuk orang-orang yang datang di tempat-tempat tadi yang bermaksud hendak mengerjakan ibadah haji dan umrah. Adapun orang-orang yang tinggal (di dalam daerah miqat), maka dia (berihram) dari tempatnya sehingga orang Mekah pun supaya memulai ihramnya dari Makkah pula.’"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Untuk penduduk Madinah, Rasulullah menetapkan Dzul Hulaifah yang sekarang disebut dengan Abyar Ali. Juhfah menjadi tempat miqat bagi penduduk Syam (Suriah dan sekitarnya). Juhfah ini terletak di padang tak berpenghuni di dekat Rabigh. Melakukan ihram dari Rabigh dapat dikatakan berihram di miqat karena letaknya sebelum Juhfah. Selain itu, desa Juhfah kini tidak ada lagi sehingga Rabigh menjadi miqat bagi orang Suriah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Untuk penduduk Nejed, miqatnya berada di Qarnul Manazil yang kini disebut dengan as-Sail. Tempat ini terletak sekitar 94 km di sebelah timur Makkah atau sekitar 220 km dari Pelabuhan Udara King abdul Aziz di Jeddah. Dan bagi penduduk Yaman, miqat berada di Yalamlam yang berjarak 93 km dari Makkah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Orang yang melintasi miqat dengan tujuan Makkah untuk berhaji atau menunaikan umrah, wajib berihram dari miqat-miqat tersebut. Disyariatkan kepada jamaah yang menempuh perjalanan udara dan laut untuk bersuci terlebih dahulu sebelum menaiki kedua transportasi tersebut. Setelah mendekati daerah miqat dari manapun mereka datang, para jamaah tersebut diwajibkan berihram lalu berniat umrah atau haji sambil bertalbiyah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Seseorang tidak diwajibkan berihram apabila ia akan pergi ke Makkah untuk tujuan niaga atau bekerja. Hal ini sesuai dengan hadis Rasulullah, ‘Miqat-miqat itu untuk penduduk-penduduk wilayah itu, juga untuk penduduk daerah lain yang hendak haji atau umrah yang melintasi miqat-miqat itu.’"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Hal ini pernah dilakukan Rasulullah ketika datang ke Makkah pada saat Pembebasan Makkah. Saat itu, Nabi SAW tidak berihram karena tidak sedang melaksanakan umrah atau haji. Beliau bahkan mengenakan serban yang dililitkan pada topi baja."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Apabila seseorang tinggal di Makkah dan ingin berhaji, dia harus keluar dari kota suci itu menuju daerah miqat dan berihram di sana. Setelah itu, barulah boleh masuk kembali ke Makkah. Sedangkan yang rumahnya jauh dari miqat, ia boleh memilih apakah akan berihram dari miqat terdekat atau berihram dari tempat tinggalnya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:text="Hal itu dijelaskan dalam hadis Rasulullah yang diriwayatkan Ibnu Abbas ketika beliau menjelaskan ketentuan miqat. ‘Dan orang yang bertempat tinggal di kawasan sebelum miqat (diukur dari Makkah), tempat ihramnya adalah dari keluarganya (rumahnya). Hingga, penduduk Makkah pun berihram dari rumahnya.’"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
